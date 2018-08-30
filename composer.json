@@ -1,0 +1,15 @@
+{
+    "name": "easyatwork/signicat",
+    "version": "1.0.0",
+    "description": "Package generated from https://preprod.signicat.com/ws/documentservice-v3?wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Easyatwork\\Signicat\\": "./src/"
+        }
+    }
+}
